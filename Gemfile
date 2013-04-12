@@ -11,6 +11,10 @@ group :development, :test do
   gem 'rspec-rails', '2.11.0'
 end
 
+group :development do
+  gem 'annotate', '2.5.0'
+end
+
 gem 'json'
 
 # Gems used only for assets and not required
